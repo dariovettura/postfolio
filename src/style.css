@@ -1,0 +1,681 @@
+/* CSS Document */
+/* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */
+/* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */
+/* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */ /* size */
+/* size */ /* size */ /* size */ /* size */ /* size */ /* size */
+.contacts {
+  transform: scale(1)
+}
+/* fine size */
+
+.sottitolo{margin-top:100px}
+
+.stories .post1,.stories .post8,.stories .post10,.stories .post13,.stories .post17{background-size: 80%;background-position:50% 30%}
+.stories .post6{background-size: 60%;background-position:50% 30%}
+
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden
+}
+.contacts-btn a{width: 100%;
+    display: contents;}
+.storia{padding-top: 50px}
+.storia .col-md-4{padding-left: 0px;padding-right: 0px}
+
+.home{padding-top: 50px}
+.Showposts{padding-top: 50px}
+
+.padding-destra{padding-right: 45%;padding-left: 25%;}
+.padding-destra .container-fluid{padding-left: 0px;padding-right: 0px}
+
+.sidebarr .Gridd{width: 20%;position: fixed;
+  z-index: 1;
+  top: 50px;
+  right: 20%;
+}
+.sidebarr .post{padding-left: 0px;
+    padding-right: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    max-width: 100px;
+    border: 1px solid #FFFFFF;
+    background-color: #222;}
+.Header {position: fixed;z-index: 100;
+	background-color: #fff;
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgb(219, 219, 219);
+	padding-bottom: 40px;
+}
+.row {
+  height: 100%
+}
+.infostories {
+  height: auto;
+  width: 100%;
+  border-top: 1px solid rgb(219, 219, 219);
+}
+.infostories a{width: 100%;
+    display: contents;
+color: #222}
+    
+.bord {
+  margin: 0px auto !important;
+  width: 90px;
+  max-width: none;
+  border: 3px solid;
+  border-radius: 300px;
+  padding: 2px;
+  height: 90px;
+}
+.infoicon {
+  transform: scale(0.7);
+}
+.bordero2 {
+  margin: 0 auto !important;
+  height: 92px;
+  width: 92px;
+  border: solid 3px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, red, yellow);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.posters, .websites, .about, .contactss {
+  margin: 3px auto !important;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+}
+.posters {
+  background-image: url("img/P-icon.png")
+}
+.websites {
+  background-image: url("img/Risorsa 3.png")
+}
+.contactss {
+  background-image: url("img/c-icon.png")
+}
+.about {
+  background-image: url("img/A-icon.png");
+}
+.herotab {
+  height: 50px;
+  max-width: 935px;
+  border-top: 1px solid rgb(219, 219, 219);
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+.herotab a{width: 100%;display: contents}
+.gridd {
+  background-image: url("img/Instagram-UI_photo_grid-512.png");
+  background-size: 7%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  border-right: 1px solid rgb(219, 219, 219);
+}
+.tagg {
+  background-image: url("img/Instagram-UI_tagged-512.png");
+  background-size: 7%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.hero {
+  padding-top: 2%;
+  max-width: 768px;
+}
+.read-more-button{font-size: 1em;opacity: 1;cursor: pointer;color: gray}
+.rigainfo1 h2 {
+  font-size: 1.5em
+}
+.rigainfo1 h3 {
+  font-size: 1.2em
+}
+.rigainfo1 h2 {
+  font-weight: bold
+}
+.rigainfo2 h1 {
+  font-weight: bold;
+  font-size: 1.8em
+}
+.rigainfo2 h3 {
+  font-size: 1.5em
+}
+.rigainfo2 h4 {
+  font-size: 1.2em;
+  font-weight: bold
+}
+.rigainfo2 h5 {
+  font-size: 1em
+}
+.imghero {
+  margin: 3px auto;
+  background-image: url( "img/mestesso.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  background-origin: border-box;
+  height: 160px;
+  width: 160px !important;
+}
+.bordero {
+  height: 174px;
+  width: 174px;
+  max-width: none;
+  border: solid 1px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, red, yellow);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 3px;
+  ;
+}
+.contacts-btn {
+  max-width: 768px;
+}
+.contact-btn {
+  ;
+  padding: 15px
+}
+.contact-btn h3 {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+.infostories {
+  max-width: 768px;
+}
+.griglia {
+  max-width: 935px;
+}
+.work {
+  background-image: url("./img/mescuro.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 300px;
+  height: 80px;
+  width: 80px !important;
+}
+.post {padding-left: 0px;
+	padding-right: 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 310px;
+  border: 10px solid #FFFFFF;
+  background-color: #222
+}
+.icon-caruso{background-image: url("img/icon-caruso.png");
+	position: absolute;
+	background-position:95% 5%;
+background-size: 12%;
+z-index: 3;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+opacity: 0.9}
+
+.post1 {
+  background-image: url("./img/drinkinst2.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post2 {
+  background-image: url( "img/drinkinst-mokki.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post3 {
+  background-image: url("img/carosell1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post3-1 {
+  background-image: url( "img/carosell2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post4 {
+  background-image: url( "img/drario-mokki.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post5 {
+  background-image: url( "img/poster2-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post5-1 {
+  background-image: url( "img/poster2-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post6 {
+  background-image: url( "img/white_mobile.gif");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post7 {
+  background-image: url( "img/poster4-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post7-1 {
+  background-image: url( "img/poster4-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post8 {
+  background-image: url( "img/beer2.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post9 {
+  background-image: url( "img/beer-mokki.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post10 {
+  background-image: url( "img/dopoteatro2.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post11 {
+  background-image: url(  "img/dopo-mokki.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post12 {
+  background-image: url( "img/poster5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post13 {
+  background-image: url(  "img/beer_woo2.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post14 {
+  background-image: url(
+	  "img/poster3-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post14-1 {
+  background-image: url(
+	  "img/poster3-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post14-2{
+  background-image: url(
+	  "img/poster3-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post14-3{
+  background-image: url(
+	  "img/poster3-4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post14-4{
+  background-image: url("img/poster3-5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post15 {
+  background-image: url(  "img/Smartplace.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post16 {
+  background-image: url("img/carosell1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post17 {
+  background-image: url(  "img/fuoriluogo2.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post18 {
+  background-image: url( "img/fuori-mocchi.png" 
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post21{ background-image: url(  "img/drink.jpg" 
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;}
+.post22{ background-image: url(  "img/ioeddy.jpg"
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;}
+.post23{ background-image: url(   "img/iocina.jpg"
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;}
+.post24{ background-image: url(  "img/laurea.jpg"
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;}
+.post25{ background-image: url( "img/ioechiara.jpg"  
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;}
+/*cards*/ /*cards*/ /*cards*/ /*cards*/ /*cards*/
+/*cards*/ /*cards*/ /*cards*/ /*cards*/ /*cards*/
+/*cards*/ /*cards*/ /*cards*/ /*cards*/ /*cards*/
+/*cards*/ /*cards*/ /*cards*/ /*cards*/ /*cards*/
+/*cards*/ /*cards*/ /*cards*/ /*cards*/ /*cards*/
+.card-header {
+  padding: 0.2rem 1.25rem;
+}
+.card-footer{    padding: .65rem 0.6rem;}
+.infocard {
+  padding: 7px
+}
+.infocard h3 {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.infocard h4 {
+  font-size: 0.9em
+}
+.card-footer h3 {
+  font-size: 0.9em
+}
+.card-footer h5 {
+  font-size: 0.7em
+}
+.card-body {height: 100%;
+  background-color: #222;
+	padding: 0;
+}
+.slaider2{width: 100% !important;margin-left: 0px;margin-right: 0px}
+.slide {
+  height: 437px;
+	    display: block !important;
+}
+.logocard {
+  background-image: url("./img/mescuro.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px
+}
+video {
+  height: 100%;
+  width: 100%
+}
+.slick-next:before, .slick-prev:before {
+  font-family: slick;
+  font-size: 25px;
+  line-height: 1;
+  opacity: .75;
+  color: #fff;
+  z-index: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+  left: 20px;
+  font-size: 14px;
+  z-index: 1;
+}
+.slick-next {
+  right: 24px;
+  font-size: 14px;
+  z-index: 1;
+}
+.post1-1 {
+  background-image: url( "img/drinkinst2.gif");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.post2-1 {
+ 
+}
+.post3-1 {
+ 
+}
+.post4-1 {
+ 
+}
+
+.post5-1 {
+ 
+}
+.post6-1 {
+ 
+}
+.post7-1 {
+ 
+}
+.post8-1 {
+ 
+}
+.post9-1 {
+ 
+}
+.post10-1 {
+ 
+}
+.post11-1 {
+ 
+}
+.post12-1 {
+ 
+}
+.post13-1 {
+ 
+}
+.post14-1 {
+ 
+}
+.post15-1 {
+ 
+}.post16-1 {
+ 
+}
+.post17-1 {
+ 
+}
+.post18-1 {
+ 
+}
+@media (max-width: 768px) {
+	.sidebarr .Gridd{display: none}
+	.padding-destra {
+    padding-right: 22%;
+		padding-left: 22%;}
+	.slide:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+	.slide{height: auto}
+  .post {
+   
+    height: 240px;
+    border: 1px solid #FFFFFF;
+    background-color: #222
+  }
+}
+@media (max-width: 576px) {
+	.col{padding-right: 0px;padding-left: 0px}
+	.post:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+	.slide:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+	.slide{height: auto}
+	.padding-destra {
+    padding-right: 0px;
+		padding-left: 0px;}
+  .rigainfo1 {
+    padding-left: 4%;
+    padding-right: 4%
+  }
+  .rigainfo1 h2 {
+    font-size: 5vw
+  }
+  .rigainfo1 h3 {
+    font-size: 3.5vw
+  }
+  .rigainfo2 h1 {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px
+  }
+  .rigainfo2 h3 {
+    font-size: 1em
+  }
+  .rigainfo2 h4 {
+    font-size: 1em;
+    font-weight: bold
+  }
+  .rigainfo2 h5 {
+    font-size: 1em
+  }
+  .contact-btn h3 {
+    padding: 6px;
+    font-size: 0.9em;
+  }
+  .bordero {
+    height: 102px;
+    width: 102px;
+    border: solid 0px transparent;
+  }
+  .imghero {
+    height: 90px;
+    width: 90px !important;
+  }
+  .infostories .col-3 {
+    padding-left: 0px;
+    padding-right: 0px
+  }
+  .infostories h4 {
+    font-size: 1em;
+    margin-top: 2px
+  }
+  .gridd, .tagg {
+    background-size: 14%;
+  }
+  .post {
+    border: 1px solid #FFFFFF;
+    height: auto;
+  
+  }
+}
