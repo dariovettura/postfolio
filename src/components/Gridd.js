@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import InstagramEmbed from 'react-instagram-embed';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Showposts from './Showposts';
 
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {AnimatePresence, motion} from 'framer-motion';
+import Showposts from './Showposts';
+import Footer from './Footer';
 import { HashLink } from 'react-router-hash-link';
 
 function Gridd () {
@@ -18,26 +19,54 @@ return (
     <div className="container-fluid griglia">
       <div className="row posts">
 
-        <div className="col-4 post ">
-           <HashLink to="Showposts/#showpost1">
-            <div className="  ">
+        <motion.div className="col-4 post "
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}>
+           <HashLink to="/Showposts/#showpost1">
+            <div className="icon-video  ">
             </div>
-            <div className="post1">
+            <div className="post1-1">
             </div>
 
           </HashLink>
-        </div>
+        </motion.div>
 
-        <div className="col-4 post">
-          <HashLink to="Showposts/#showpost2">
+        <motion.div className="col-4 post"
+	
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}>
+          <HashLink to="/Showposts/#showpost2">
             <div className="  ">
             </div>
             <div className="post2">
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}>
           <HashLink to="/Showposts/#showpost3">
             <div className="icon-caruso">
             </div>
@@ -46,19 +75,38 @@ return (
 
           </HashLink>
 
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost4">
 
             <div className="  ">
             </div>
-            <div className="post4">
+            <div className="post4"
+	>
             </div>
 
           </HashLink>
 
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost5">
             <div className=" icon-caruso ">
             </div>
@@ -67,19 +115,37 @@ return (
 
           </HashLink>
 
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
 
           <HashLink to="/Showposts/#showpost6">
-            <div className="  ">
+            <div className=" icon-video ">
             </div>
-            <div className="post6">
+            <div className="post6-1">
             </div>
 
           </HashLink>
 
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost7">
             <div className="icon-caruso">
             </div>
@@ -87,17 +153,35 @@ return (
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost8">
-            <div className="  ">
+            <div className=" icon-video ">
             </div>
-            <div className="post8">
+            <div className="post8-1">
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost9">
             <div className="  ">
             </div>
@@ -105,17 +189,35 @@ return (
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost10">
-            <div className="  ">
+            <div className=" icon-video ">
             </div>
-            <div className="post10">
+            <div className="post10-1">
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost11">
             <div className="  ">
             </div>
@@ -123,8 +225,17 @@ return (
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost12">
             <div className="  ">
             </div>
@@ -132,17 +243,35 @@ return (
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost13">
-            <div className="  ">
+            <div className=" icon-video ">
             </div>
-            <div className="post13">
+            <div className="post13-1">
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost14">
             <div className="icon-caruso">
             </div>
@@ -150,17 +279,35 @@ return (
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost15">
-            <div className="  ">
+            <div className="icon-video  ">
             </div>
-            <div className="post15">
+            <div className="post15-1">
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost16">
             <div className="  ">
             </div>
@@ -168,17 +315,35 @@ return (
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost17">
-            <div className="  ">
+            <div className=" icon-video ">
             </div>
-            <div className="post17">
+            <div className="post17-1">
             </div>
 
           </HashLink>
-        </div>
-        <div className="col-4 post">
+        </motion.div>
+        <motion.div className="col-4 post"
+	whileTap={{
+	scale:0.9,
+	zIndex:100
+	}}
+	whileHover={{
+	scale:1.1,
+	zIndex:100,
+
+	}}>
           <HashLink to="/Showposts/#showpost18">
             <div className="  ">
             </div>
@@ -186,13 +351,13 @@ return (
             </div>
  </HashLink>
         
-        </div>
+        </motion.div>
         
       </div>
     </div>
 
   </section>
-	
+	   <Footer/>
 
 </div>
 		 

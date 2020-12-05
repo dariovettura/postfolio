@@ -26,13 +26,7 @@ return (
 	
 	<div>
 	<Header_show/>
-		 <motion.div 
-		initial="out"
-	   animate="in"
-	  exit="out"
-	  variants={pageVariants}
-      transition={pageTransition}
-	  >
+		 <motion.div >
 <div className="Showposts">
 	<div className="sidebarr">
 
@@ -564,6 +558,7 @@ return (
 	
 	</div>
 			  </motion.div>
+		   <Footer/>
 	
 		</div>
 		

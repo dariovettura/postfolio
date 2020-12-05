@@ -61,7 +61,7 @@ const stories2 = [
         <p>JS,CSS,Bootstrap, <br></br>
           Adobe suite</p>
 		  <a href="https://www.drinkinstreet.it/" target="_blank">https://www.drinkinstreet.it/</a>
-		  <p className=""  style={{ textDecoration: 'underline',border:'1px solid #fff',borderRadius:'30px',padding:'5px',marginTop:'50%' }} onClick={close}>Return</p>
+		  <p className=""  style={{ textDecoration: 'underline',borderRadius:'30px',padding:'5px',marginTop:'20%' }} onClick={close}>Return</p>
       </div>
 		 </div>
 		 </div>
@@ -96,7 +96,7 @@ const stories2 = [
         <p>JS,CSS,Bootstrap, <br></br>
           Adobe suite</p>
 		  <a href="https://www.dariovettura.com/" target="_blank">https://www.dariovettura.com/</a>
-		  <p className=""  style={{ textDecoration: 'underline',border:'1px solid #fff',borderRadius:'30px',padding:'5px',marginTop:'50%' }} onClick={close}>Return</p>
+		  <p className=""  style={{ textDecoration: 'underline',borderRadius:'30px',padding:'5px',marginTop:'20%' }} onClick={close}>Return</p>
       </div>
 		 </div>
 		 </div>
@@ -131,7 +131,7 @@ const stories2 = [
         <p>PHP,JS,CSS,Bootstrap, <br></br>
           Adobe suite</p>
 		  <a href=" https://www.beergardennapoli.it/" target="_blank">https://www.beergardennapoli.it</a>
-		  <p className=""  style={{ textDecoration: 'underline',border:'1px solid #fff',borderRadius:'30px',padding:'5px',marginTop:'50%' }} onClick={close}>Return</p>
+		  <p className=""  style={{ textDecoration: 'underline',borderRadius:'30px',padding:'5px',marginTop:'20%' }} onClick={close}>Return</p>
       </div>
 		 </div>
 		 </div>
@@ -163,7 +163,7 @@ const stories2 = [
         <p>PHP,JS,CSS,Bootstrap, <br></br>
           Adobe suite</p>
 		  <a href=" https://dopoteatronapoli.it/" target="_blank">https://dopoteatronapoli.it/</a>
-		  <p className=""  style={{ textDecoration: 'underline',border:'1px solid #fff',borderRadius:'30px',padding:'5px',marginTop:'50%' }} onClick={close}>Return</p>
+		  <p className=""  style={{ textDecoration: 'underline',borderRadius:'30px',padding:'5px',marginTop:'20%' }} onClick={close}>Return</p>
       </div>
 		 </div>
 		 </div>
@@ -196,7 +196,7 @@ const stories2 = [
         <p>JS,CSS,Bootstrap, <br></br>
           Adobe suite</p>
 		  <a href=" http://fuoriloco.altervista.org/wordpress/" target="_blank">https://fuoriluogonapoli.it/</a>
-		  <p className=""  style={{ textDecoration: 'underline',border:'1px solid #fff',borderRadius:'30px',padding:'5px',marginTop:'50%' }} onClick={close}>Return</p>
+		  <p className=""  style={{ textDecoration: 'underline',borderRadius:'30px',padding:'5px',marginTop:'20%' }} onClick={close}>Return</p>
       </div>
 		 </div>
 		 </div>
@@ -230,7 +230,7 @@ const stories2 = [
         <p>PHP,JS,CSS,Bootstrap, <br></br>
           Adobe suite</p>
 		  <a href=" http://beergardennapoli.altervista.org/wordpress/" target="_blank">https://baruso.it/</a>
-		  <p className=""  style={{ textDecoration: 'underline',border:'1px solid #fff',borderRadius:'30px',padding:'5px',marginTop:'50%' }} onClick={close}>Return</p>
+		  <p className=""  style={{ textDecoration: 'underline',borderRadius:'30px',padding:'5px',marginTop:'20%' }} onClick={close}>Return</p>
       </div>
 		 </div>
 		 </div>

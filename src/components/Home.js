@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {BrowserRouter as Router, Switch, Route, useLocation} from 'react-router-dom';
 import {AnimatePresence, motion} from 'framer-motion';
+import CookieConsent from "react-cookie-consent";
 import ReadMoreReact from 'read-more-react';
 import Slaider from './Slaider'; 
 import Tab from './Tab';
@@ -10,7 +11,8 @@ import Gridd2 from './Gridd2';
 import Showposts from './Showposts';
 import Infostories from './Infostories';
 	import Header from './Header';
-import Footer from './Footer';
+import Cookies from './Cookies';
+
 import PerStories from '../storie/Personalstories';
 
 
@@ -29,26 +31,24 @@ const pageTransition = {
 }
 
 function Home() {
+	
 	const location = useLocation();
+	
   return (
+	  
 	  <div>
+	
 	<Router>  
 	  <AnimatePresence exitBeforeEnter>
 		  <Switch  key={location.pathname}>
 	 
 	  <Route exact path="/Stories" component={PerStories}/>
 			   <Route exact path="/Showposts" component={Showposts}/>
+	    <Route exact path="/Cookies" component={Cookies}/>
 			  
-	  
+	     
 	 
-	  <div 
-		 initial="initial"
-	   animate="in"
-	  exit="out"
-
-	  variants={pageVariants}
-	  transition={pageTransition}
-	  >
+	  <div >
 	
 	
     <div className="home">
@@ -58,15 +58,20 @@ function Home() {
   <div className="row rigainfo1 d-flex align-items-center text-center">
 	  
 	  <Link to="/Stories">
-    <div className="col-1 bordero">
+    <motion.div className="col-1 bordero"
+	  whileTap={{
+	backgroundImage:"linear-gradient(white,white),radial-gradient(circle at  top, red, yellow)",
+
+
+	}}>
       <div className="imghero"></div>
-    </div>
+    </motion.div>
 	  </Link>
 	  
     <div className="col">
 	 
       <div className="postshero">
-        <h2>40</h2>
+        <h2>18</h2>
         <h3>Posts</h3>
       </div>
     </div>
@@ -133,11 +138,23 @@ function Home() {
 	  
     </div>
 		  </div>
-			   
+			 
 	   </Switch>
 	 </AnimatePresence>
-		 <Footer/>
+		
 	   </Router>
+	  <CookieConsent
+	  contentStyle={{margin:"0px",position:"relative"}}
+  location="bottom"
+  buttonText="Sure man!!"
+  cookieName="myAwesomeCookieName2"
+  style={{ background: "#000" ,fontSize: "13px",}}
+  buttonStyle={{ color: "#000", fontSize: "13px",background: "#ff8800",margin:"5px" }}
+  expires={150}
+>
+  This website uses cookies to enhance the user experience.{" "}
+  <span style={{ fontSize: "13px" }}><Link style={{ fontSize: "13px",color:"#fff",textDecoration:"underline"}} to="/Cookies">See the cookies and privacy policy</Link></span>
+</CookieConsent>
 	  
 		  </div>
   );

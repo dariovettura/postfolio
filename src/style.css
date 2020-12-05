@@ -7,9 +7,10 @@
   transform: scale(1)
 }
 /* fine size */
-
+.Showposts .Gridd .sottitolo{display: none}
 .sottitolo{margin-top:100px}
-
+.btn-primary-outline{color: black}
+.Header a:hover{text-decoration: none}
 .stories .post1,.stories .post8,.stories .post10,.stories .post13,.stories .post17{background-size: 80%;background-position:50% 30%}
 .stories .post6{background-size: 60%;background-position:50% 30%}
 
@@ -223,6 +224,15 @@ background-repeat: no-repeat;
 height: 100%;
 width: 100%;
 opacity: 0.9}
+.icon-video{background-image: url( "img/insta-video-icon.png");
+	position: absolute;
+	background-position:95% 5%;
+background-size: 18%;
+z-index: 3;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+opacity: 0.9}
 
 .post1 {
   background-image: url("./img/drinkinst2.gif");
@@ -233,7 +243,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post2 {
-  background-image: url( "img/drinkinst-mokki.png");
+  background-image: url( "img/drinkinst-mokki.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,7 +251,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post3 {
-  background-image: url("img/carosell1.png");
+  background-image: url( "img/carosell1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -249,7 +259,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post3-1 {
-  background-image: url( "img/carosell2.png");
+  background-image: url(  "img/carosell2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +267,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post4 {
-  background-image: url( "img/drario-mokki.png");
+  background-image: url( "img/drario-mokki.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -265,7 +275,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post5 {
-  background-image: url( "img/poster2-1.png");
+  background-image: url( "img/poster2-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +283,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post5-1 {
-  background-image: url( "img/poster2-2.png");
+  background-image: url( "img/poster2-2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,7 +299,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post7 {
-  background-image: url( "img/poster4-1.png");
+  background-image: url( "img/poster4-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -297,7 +307,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post7-1 {
-  background-image: url( "img/poster4-2.png");
+  background-image: url( "img/poster4-2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -313,7 +323,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post9 {
-  background-image: url( "img/beer-mokki.png");
+  background-image: url( "img/beer-mokki.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,7 +339,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post11 {
-  background-image: url(  "img/dopo-mokki.png");
+  background-image: url(  "img/dopo-mokki.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -354,7 +364,7 @@ opacity: 0.9}
 }
 .post14 {
   background-image: url(
-	  "img/poster3-1.png");
+	  "img/poster3-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -405,7 +415,7 @@ opacity: 0.9}
   width: 100%;
 }
 .post16 {
-  background-image: url("img/carosell1.png");
+  background-image: url(  "img/carosell1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -532,7 +542,7 @@ video {
   z-index: 1;
 }
 .post1-1 {
-  background-image: url( "img/drinkinst2.gif");
+  background-image: url(  "img/drinkinst2.png");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -552,19 +562,35 @@ video {
 .post5-1 {
  
 }
-.post6-1 {
+.post6-1 { background-image: url( "img/dariopt.png");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
  
 }
 .post7-1 {
  
 }
-.post8-1 {
+.post8-1 {background-image: url(  "img/beer2.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
  
 }
 .post9-1 {
  
 }
-.post10-1 {
+.post10-1 {background-image: url(  "img/dopoteatro2.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+ 
  
 }
 .post11-1 {
@@ -573,23 +599,46 @@ video {
 .post12-1 {
  
 }
-.post13-1 {
+.post13-1 {background-image: url(  "img/beer_woo2.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
  
 }
 .post14-1 {
  
 }
-.post15-1 {
+.post15-1 {background-image: url(  "img/Smartplace.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
  
 }.post16-1 {
  
 }
-.post17-1 {
+.post17-1 {background-image: url(  "img/fuoriluogo2.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
  
 }
 .post18-1 {
  
 }
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
 	.sidebarr .Gridd{display: none}
 	.padding-destra {
@@ -609,6 +658,10 @@ video {
   }
 }
 @media (max-width: 576px) {
+	
+	
+	
+	
 	.col{padding-right: 0px;padding-left: 0px}
 	.post:after {
   content: "";
